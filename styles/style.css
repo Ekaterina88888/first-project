@@ -236,7 +236,7 @@
   } 
   
   .section-subtitle__theme_dark {
-  color: #f2f2f2; 
+  color: #f2f2f2;
   width: 60%;
   z-index: 2;
   } 
@@ -320,7 +320,7 @@
   .footer__author  { 
   font-size: 18px;
   line-height: 25px;
-  font-weight: normal; 
+  font-weight: normal;
   padding-top: 18px;
   padding-bottom: 18px;
   position: absolute;
@@ -332,7 +332,7 @@
  .footer__column-heading { 
   font-size: 18px;
   line-height: 30px;
-  font-weight: 600;  
+  font-weight: 600;
   margin: 0;
   }
   
@@ -356,7 +356,7 @@
   
   .footer__column-link {
   text-decoration: none;
-  color: #f2f2f2; 
+  color: #f2f2f2;
   margin: 0;
   font-size: 18px;
   line-height: 30px;
