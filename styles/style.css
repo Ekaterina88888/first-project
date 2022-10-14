@@ -11,7 +11,7 @@
   max-height: 756px;
   position: relative;
   height: 100vh;
-  z-index: 1;
+  z-index: 2;
   display: flex;
   align-items: center;
   box-sizing: border-box;
@@ -27,7 +27,7 @@
   position: absolute;
   top: 30px;
   left: 64px;
-  z-index: 2;
+  z-index: 1;
 }   
    
 .header__title {
@@ -36,6 +36,7 @@
   padding-left: 64px;
   font-weight: 600;
   font-size: 102px;
+  z-index: 2;
 }
        
 .header__subtitle {
@@ -46,6 +47,8 @@
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
+  margin: 0;
+  padding: 0;
 }
   
 .header__main-illustration {
@@ -67,6 +70,11 @@
   right: 0;
   z-index: 0;
 }
+
+.header__link { 
+  text-decoration: none; 
+  color: #2f80ed; 
+} 
 
 .content {
   margin: 0;
@@ -207,7 +215,7 @@
   width: 648px;
   padding-top: 100px;
   text-align: center;
-  z-index: 1; 
+  z-index: 2; 
 } 
 
 .feynman__subtitle { 
@@ -217,7 +225,7 @@
   text-align: center;
   font-size: 36px;
   line-height: 51px;
-  z-index: 1;
+  z-index: 2;
 }
 
 .feynman__link { 
@@ -237,24 +245,25 @@
   position: relative;
   padding-top: 90px;
   padding-bottom: 0;
-  z-index: 0;
+ 
 } 
 
 .section-title_theme_dark { 
   color: #f2f2f2;
-  z-index: 2;
+  z-index: 1;
+  position: relative;
 } 
   
 .section-subtitle_theme_dark {
   color: #f2f2f2;
   width: 60%;
-  z-index: 2;
+  z-index: 1;
 } 
 
-.table_theme_dark { 
+.table__theme_dark { 
   padding-top: 0;
   padding-bottom: 90px;
-  z-index: 2;
+  z-index: 1;
 } 
 
 .table__cell_theme_dark { 
@@ -262,7 +271,7 @@
   color: white;
   margin-right: 0;
   margin-top: 80px;
-  z-index: 2;
+  z-index: 1;
 } 
 
 .kaufman__triangle { 
@@ -275,8 +284,9 @@
   position: absolute;
   margin: 0;
   padding: 0;
-  z-index: 1;
+  z-index: 0;
   bottom: 90px;
+  overflow: hidden;
 }
   
 .footer  { 
@@ -287,7 +297,7 @@
   justify-content: center;
   padding: 60px 0 40px 0;
   margin: 0;
- } 
+} 
   
 .footer__columns { 
   display: flex;
@@ -357,13 +367,9 @@
     
 .footer__column_content_info { 
   color: #f2f2f2;
-  margin-right: auto;
-  margin-left: auto;
 }
     
 .footer__column_content_social { 
-  margin-left: auto;
-  margin-right: auto;
 }
   
 .footer__social-icon { 
