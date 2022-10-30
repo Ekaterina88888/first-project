@@ -1,0 +1,6 @@
+@import url(../blocks/digits/digits.css);
+
+.digits { 
+    padding-bottom: 0;
+    padding-top: 100px;
+  } 

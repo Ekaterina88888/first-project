@@ -1,0 +1,6 @@
+@import url(../blocks/video/video.css); 
+
+.video {
+    width: 60%;
+    margin: 100px auto;
+  }
