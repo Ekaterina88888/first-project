@@ -1,5 +1,4 @@
-@import url(../header/header.css);
-
+@import url(..blocks/header/header.css);
 .header {
     background-color: #f2f2f2;
     min-height: 600px;
